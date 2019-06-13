@@ -1,1 +1,1 @@
-web: gunicorn fast-caverns-20794.app:app
+heroku ps:scale web=1
